@@ -44,9 +44,9 @@ const Footer = () => {
         <div style={footerStyle}>
             <h6>Find Carmella DiMella</h6>
             <div style={footerSocialMediaIcons}>
-                <span style={socialMediaIconPadding}><a href="#">Twitter</a></span>
-                <span style={socialMediaIconPadding}><a href="#">Pinterest</a></span>
-                <span style={socialMediaIconPadding}><a href="#">Instagram</a></span>
+                <span style={socialMediaIconPadding}><a href="https://www.facebook.com/CarmellaDiMella/">Facebook</a></span>
+                <span style={socialMediaIconPadding}><a href="https://www.pinterest.com/kerrijcreate/carmella-dimella/">Pinterest</a></span>
+                <span style={socialMediaIconPadding}><a href="https://www.instagram.com/carmelladimella/">Instagram</a></span>
             </div>
             <div style={footerBranding}></div>
             <h6>Carmella DiMella &copy; 2018</h6>     
