@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { Jumbotron, Container, Row, Col } from 'reactstrap';
+import { Grid } from 'react-bootstrap'
 import PropTypes from 'prop-types';
 
 
@@ -11,8 +12,9 @@ const marginTop = {
 const landingPageImage = {
   backgroundImage: 'url(static/img/test.png)',
   display: 'flex',
-  backgroundSize: 'cover',
-  backgroundPosition: 'bottom',
+  backgroundSize: 'contain no-repeat',
+  backgroundPosition: '50% 75%',
+  opacity: .7,
   height: '60vh',
   width: '100%',
   color: 'white'
@@ -20,7 +22,8 @@ const landingPageImage = {
 
 const videoWrapper = {
   padding: "56% 0 0 0",
-  position: "relative"
+  position: "relative",
+  marginBottom: "20px"
 }
 
 const iFrameStyle = {
@@ -31,14 +34,29 @@ const iFrameStyle = {
   height: "100%"
 };
 
+const backgroundOpacity = {
+   backgroundColor: "rgba(0, 0, 0, 0.1)",
+   padding: "5px"
+}
+
+const contentWrapper = {
+  fontSize: '1.2em',
+  marginTop: "2%"
+}
+
+const headerShadow = {
+   textShadow: "black 1px 0 10px"
+}
 
 const IndexPage = (props) => {
   return (
     <div style={marginTop}>
       <Jumbotron fluid style={landingPageImage}>
-        <Container fluid>
+        <Container>
+        <div style={headerShadow}>
         <h1 className="display=3">Carmella DiMella</h1>
           <p className="lead">Vintage-inspired & ethically constructed</p>
+        </div>
         </Container>
       </Jumbotron>
    <Row>
@@ -50,12 +68,13 @@ const IndexPage = (props) => {
         <script src="https://player.vimeo.com/api/player.js"></script>
       </Col>
       <Col xs="12" md="6">
+      <div style={contentWrapper}>
         <p>Carmella DiMella is named after my great-grandmother who made wedding dresses in Italy. This tradition of dressmaking was handed down through the generations and has been my passion since the age of 8.</p>
 
-        <p>Carmella DiMella is named after my great-grandmother who made wedding dresses in Italy. This tradition of dressmaking was handed down through the generations and has been my passion since the age of 8.</p>
+        <p>My hope is that when a woman puts on a Carmella DiMella dress she feels comfortable, attractive and that she has a garment that will last a long time. Whenever possible I put pockets into the skirt of the dress, consider bra placement and do my best to use machine washable fabrics. I hope that these dresses end up being a staple of your closet and favorites of all time.</p>
 
-       <p> For any questions about ordering a dress or wear to buy, please email me at carmelladimella@gmail.com</p>
-
+       <p> For any questions about ordering a dress or wear to buy, please <a href="mailto:carmelladimella@gmail.com">email me.</a></p>
+       </div>
       </Col>
     </Row>
     </div> 

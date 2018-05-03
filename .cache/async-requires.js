@@ -2,7 +2,6 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
-  "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/jjdaurora/dev/clients/carmella_dimella/.cache/dev-404-page.js"),
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!/Users/jjdaurora/dev/clients/carmella_dimella/src/pages/404.js"),
   "component---src-pages-about-js": require("gatsby-module-loader?name=component---src-pages-about-js!/Users/jjdaurora/dev/clients/carmella_dimella/src/pages/about.js"),
   "component---src-pages-blog-js": require("gatsby-module-loader?name=component---src-pages-blog-js!/Users/jjdaurora/dev/clients/carmella_dimella/src/pages/blog.js"),
@@ -14,7 +13,6 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/jjdaurora/dev/clients/carmella_dimella/.cache/json/layout-index.json"),
-  "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/jjdaurora/dev/clients/carmella_dimella/.cache/json/dev-404-page.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/jjdaurora/dev/clients/carmella_dimella/.cache/json/404.json"),
   "about.json": require("gatsby-module-loader?name=path---about!/Users/jjdaurora/dev/clients/carmella_dimella/.cache/json/about.json"),
   "blog.json": require("gatsby-module-loader?name=path---blog!/Users/jjdaurora/dev/clients/carmella_dimella/.cache/json/blog.json"),

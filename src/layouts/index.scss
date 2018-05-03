@@ -1,12 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Arapey');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 @import './fonts.scss';
 @import './color.scss';
 
 body {
     font-family: $font-family-monospace;
+    background-color: $off-white;
 }
 
-nav {
-    border-bottom: 20px solid $black;
+.navbar {
+    background-color: $off-white;
 }
 
+// div p {
+//     font-family: $font-family-secondary;
+// }
+
+.jumbotron p {
+    font-family: $font-family-monospace;
+}
+
+span a {
+    color:  $off-white;
+    text-decoration: none;
+}
