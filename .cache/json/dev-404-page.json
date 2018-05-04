@@ -1,1 +1,1 @@
-{"data":{"allSitePage":{"totalCount":8,"edges":[{"node":{"path":"/404/"}},{"node":{"path":"/about/"}},{"node":{"path":"/blog/"}},{"node":{"path":"/contact/"}},{"node":{"path":"/"}},{"node":{"path":"/page-2/"}},{"node":{"path":"/shop/"}},{"node":{"path":"/404.html"}}]}},"pathContext":{}}
+{"data":{"allSitePage":{"totalCount":7,"edges":[{"node":{"path":"/404/"}},{"node":{"path":"/blog/"}},{"node":{"path":"/contact/"}},{"node":{"path":"/"}},{"node":{"path":"/page-2/"}},{"node":{"path":"/shop/"}},{"node":{"path":"/404.html"}}]}},"pathContext":{}}

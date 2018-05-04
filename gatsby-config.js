@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/carmelladimella`,
   siteMetadata: {
     title: 'Carmella DiMella',
   },
@@ -6,7 +7,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sass`,
       options: {
-        precision: 8,
+      precision: 8,
       },
-    },],
+    },
+  //   {
+  //     resolve: `gatsby-plugin-babel`,
+  //     options: {
+  //     ignore: ['foo.js', 'bar/**/*.js'],
+  //   },
+  // },
+  ],
 }

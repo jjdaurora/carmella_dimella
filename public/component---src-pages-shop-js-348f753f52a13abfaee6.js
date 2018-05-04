@@ -1,0 +1,2 @@
+webpackJsonp([0xe691da7b53f3],{53:function(e,t){},213:function(e,t,l){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var a=l(1),r=n(a);l(53);var u={display:"flex",flexDirection:"column",textAlign:"center",marginTop:"10%"},i=function(){return r.default.createElement("div",{style:u},r.default.createElement("h2",null,"COMING SOON."),r.default.createElement("p",null,"Carmella DiMella's storefront is not ready at this time."))};t.default=i,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-shop-js-348f753f52a13abfaee6.js.map

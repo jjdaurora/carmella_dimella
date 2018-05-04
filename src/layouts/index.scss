@@ -21,6 +21,10 @@ body {
     font-family: $font-family-monospace;
 }
 
+.signature-font {
+    font-family: $font-family-decorative;
+}
+
 span a {
     color:  $off-white;
     text-decoration: none;

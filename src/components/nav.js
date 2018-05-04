@@ -45,7 +45,7 @@ class Navi extends React.Component {
             <div>
                 <Navbar color="white" light expand="md">
                     <NavbarBrand><Link to="/"> <img
-                        src={pathPrefix + 'static/img/carmella_dimella.png'}
+                        src={'static/img/carmella_dimella.png'}
                         alt="Carmella Dimella Logo" style={navBrandingCentered}/></Link>
                     </NavbarBrand>
                         {/* <NavbarToggler onClick={this.toggle} /> */}

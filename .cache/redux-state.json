@@ -390,7 +390,7 @@
       "resolve": "/Users/jjdaurora/dev/clients/carmella_dimella",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "060f5b56deb4e7e096d3a6fefb3dfef5",
+      "version": "18680c5cab967b1a845826d78662ceb7",
       "pluginOptions": {
         "plugins": []
       },
@@ -399,15 +399,19 @@
       "ssrAPIs": [],
       "pluginFilepath": "/Users/jjdaurora/dev/clients/carmella_dimella",
       "packageJson": {
-        "name": "gatsby-starter-default",
-        "description": "Gatsby default starter",
+        "name": "Carmella-DiMella",
+        "description": "Carmella DiMella Gatsby",
         "version": "1.0.0",
         "keywords": [
           "gatsby"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": "JJ DAurora <jjdaurora@gmail.com>",
         "license": "MIT",
         "dependencies": [
+          {
+            "name": "babel-plugin-transform-react-jsx",
+            "version": "^6.24.1"
+          },
           {
             "name": "bootstrap",
             "version": "^4.1.0"
@@ -417,8 +421,16 @@
             "version": "^1.9.247"
           },
           {
+            "name": "gatsby-cli",
+            "version": "^1.1.51"
+          },
+          {
             "name": "gatsby-link",
             "version": "^1.6.40"
+          },
+          {
+            "name": "gatsby-plugin-babel",
+            "version": "^1.0.0"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -427,6 +439,10 @@
           {
             "name": "gatsby-plugin-sass",
             "version": "^1.0.26"
+          },
+          {
+            "name": "gh-pages",
+            "version": "^1.1.0"
           },
           {
             "name": "react",
@@ -455,6 +471,10 @@
         ],
         "devDependencies": [
           {
+            "name": "gh-pages",
+            "version": "^1.1.0"
+          },
+          {
             "name": "prettier",
             "version": "^1.12.0"
           }
@@ -466,7 +486,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "15f75e4f2a864fa5279bd1bd3f8b1952",
+        "contentDigest": "37213bb9084695978a0d1cd06805fefa",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -475,14 +495,14 @@
       "siteMetadata": {
         "title": "Carmella DiMella"
       },
-      "pathPrefix": "",
+      "pathPrefix": "/carmelladimella",
       "polyfill": true,
-      "buildTime": "2018-05-03T03:04:31.247Z",
+      "buildTime": "2018-05-04T00:28:43.291Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cbb277c0507c096a58dbb7f2405ded30",
+        "contentDigest": "5b07290d36a0c6dd616b9fd89c7bae65",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -503,28 +523,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "878e0f2a91d810b47c493f4c69fa0a8a",
-        "description": "Plugin component-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /about/": {
-      "layout": "index",
-      "jsonName": "about.json",
-      "internalComponentName": "ComponentAbout",
-      "path": "/about/",
-      "component": "/Users/jjdaurora/dev/clients/carmella_dimella/src/pages/about.js",
-      "componentChunkName": "component---src-pages-about-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/jjdaurora/dev/clients/carmella_dimella/src/pages/about.js",
-      "id": "SitePage /about/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "1a188c6718d0c284e99b177efc741527",
+        "contentDigest": "35e9f67eaf21f7e3ca6f9bc7d09a9864",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -545,7 +544,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c190ed138b7e2223b0a3a427063954dd",
+        "contentDigest": "4987e4219b3224d1b2b7a9644d58040e",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -566,7 +565,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a2479184d20d467ddc40e39de87f782d",
+        "contentDigest": "09d9ca99013f482651916a05fe24f8c1",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -587,7 +586,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1b8b734d19e860d33c9710f23e97c535",
+        "contentDigest": "9a38602aa1ce3913eb13cf655505fc88",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -608,7 +607,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6d6a919fb8fff56ec250275c738b668f",
+        "contentDigest": "06cb55796e71fb838323a27babf2a5bd",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -629,7 +628,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1a92d2d98a9e378f10968c89c40afe7f",
+        "contentDigest": "c494a1ec5402e1b8bba2c9298a06ca14",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -650,7 +649,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "88213835dbf0250b99be36cda67c32dc",
+        "contentDigest": "77cd8ce46869cdf1e9bc2eba7b466ea4",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -658,7 +657,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "2deeeb071f180af70455746d86e023e2"
+    "PLUGINS_HASH": "c6071bbfdf1178b1df11bf51cb20993c"
   },
   "componentDataDependencies": {
     "nodes": {

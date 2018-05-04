@@ -8,7 +8,6 @@ exports.layouts = {
 
 exports.components = {
   "component---src-pages-404-js": preferDefault(require("/Users/jjdaurora/dev/clients/carmella_dimella/src/pages/404.js")),
-  "component---src-pages-about-js": preferDefault(require("/Users/jjdaurora/dev/clients/carmella_dimella/src/pages/about.js")),
   "component---src-pages-blog-js": preferDefault(require("/Users/jjdaurora/dev/clients/carmella_dimella/src/pages/blog.js")),
   "component---src-pages-contact-js": preferDefault(require("/Users/jjdaurora/dev/clients/carmella_dimella/src/pages/contact.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/jjdaurora/dev/clients/carmella_dimella/src/pages/index.js")),
@@ -19,7 +18,6 @@ exports.components = {
 exports.json = {
   "layout-index.json": require("/Users/jjdaurora/dev/clients/carmella_dimella/.cache/json/layout-index.json"),
   "404.json": require("/Users/jjdaurora/dev/clients/carmella_dimella/.cache/json/404.json"),
-  "about.json": require("/Users/jjdaurora/dev/clients/carmella_dimella/.cache/json/about.json"),
   "blog.json": require("/Users/jjdaurora/dev/clients/carmella_dimella/.cache/json/blog.json"),
   "contact.json": require("/Users/jjdaurora/dev/clients/carmella_dimella/.cache/json/contact.json"),
   "index.json": require("/Users/jjdaurora/dev/clients/carmella_dimella/.cache/json/index.json"),

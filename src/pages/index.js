@@ -74,6 +74,8 @@ const IndexPage = (props) => {
         <p>My hope is that when a woman puts on a Carmella DiMella dress she feels comfortable, attractive and that she has a garment that will last a long time. Whenever possible I put pockets into the skirt of the dress, consider bra placement and do my best to use machine washable fabrics. I hope that these dresses end up being a staple of your closet and favorites of all time.</p>
 
        <p> For any questions about ordering a dress or wear to buy, please <a href="mailto:carmelladimella@gmail.com">email me.</a></p>
+
+       <p className="signature-font"> - Kerri Jamison</p>
        </div>
       </Col>
     </Row>

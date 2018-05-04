@@ -1,5 +1,4 @@
 import React from 'react'
-import ComingSoon from '../Components/comingsoon.js'
 import '../layouts/index.scss'
 
 const comingSoonWrapper = {
