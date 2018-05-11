@@ -560,11 +560,84 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-netlify": {
+      "resolve": "/Users/jjdaurora/dev/clients/carmella_dimella/node_modules/gatsby-plugin-netlify",
+      "id": "Plugin gatsby-plugin-netlify",
+      "name": "gatsby-plugin-netlify",
+      "version": "1.0.19",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig",
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jjdaurora/dev/clients/carmella_dimella/node_modules/gatsby-plugin-netlify",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify",
+        "description": "A Gatsby plugin which generates a _headers file for netlify",
+        "version": "1.0.19",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "http/2-server-push",
+          "netlify"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "webpack-assets-manifest",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c22938a97fd3d37ce6eb31d590de2c02",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/jjdaurora/dev/clients/carmella_dimella",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "3afb26bd4348dce328fb16f8d5c51f40",
+      "version": "4e37ed136daa0050846a26f11a566a0a",
       "pluginOptions": {
         "plugins": []
       },
@@ -609,6 +682,10 @@
           {
             "name": "gatsby-plugin-babel",
             "version": "^1.0.0"
+          },
+          {
+            "name": "gatsby-plugin-netlify",
+            "version": "^1.0.19"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -672,7 +749,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0a3883fac7764af9e25b043fcd0d5bc3",
+        "contentDigest": "e819666a2384b0f89a03eb371ae75d2e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -683,12 +760,12 @@
       },
       "pathPrefix": "/carmelladimella",
       "polyfill": true,
-      "buildTime": "2018-05-11T01:13:34.191Z",
+      "buildTime": "2018-05-11T01:34:24.498Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c683df0adc6b8107aa514e86f84eac47",
+        "contentDigest": "d994a57148fc4fcc6040b018aefaa9fa",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -709,7 +786,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5800ba34c7d8d1fdbf8ba3ef71eae6e5",
+        "contentDigest": "e0b61f2c384076c058804ba88adfa5b2",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -730,7 +807,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9f3181477e09eb058828877d59f8bcd3",
+        "contentDigest": "c2490574d3b154854b8cb05ca03eda32",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -751,7 +828,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cd4e002d0f3b4707d08299a101af000b",
+        "contentDigest": "9453eab8bf539c3a73b0ec47f2574f6e",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -772,7 +849,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "87735e364892d7051eba38108497646c",
+        "contentDigest": "eef3d480d91c92b8e9a3b63f645da6ac",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -793,7 +870,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "72776eb522ed8f7ad2459ad16cef18fa",
+        "contentDigest": "e98790a17e31ede66d73d154e72340bf",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -814,7 +891,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a77a36dbb1f6e31543a4e47ef36ccbea",
+        "contentDigest": "76eb99338f2f03e956c982e777187d0d",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -835,7 +912,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bc8402a39a6d837c548ed83bdbc9864c",
+        "contentDigest": "bc1486d9e631f93e86143297622ea850",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -843,7 +920,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "9c4d7ba2283b7f08dc09c79eaa32f03e"
+    "PLUGINS_HASH": "4e718465dc7120cec123a14fcda86259"
   },
   "componentDataDependencies": {
     "nodes": {

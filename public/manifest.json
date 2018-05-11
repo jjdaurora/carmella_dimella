@@ -1,0 +1,6 @@
+{
+  "main.css": "styles.css",
+  "main.js": "render-page.js",
+  "main.js.map": "render-page.js.map",
+  "static/carmella_dimella.png": "static/carmella_dimella.8cd74893.png"
+}
