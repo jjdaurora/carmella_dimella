@@ -386,11 +386,185 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/jjdaurora/dev/clients/carmella_dimella/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.24",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jjdaurora/dev/clients/carmella_dimella/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.24",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "85c87cd61aababd600ea1dbb3ddc473f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/jjdaurora/dev/clients/carmella_dimella/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.44",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jjdaurora/dev/clients/carmella_dimella/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.44",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b2194cdbb932fc8eb01f32f78da52628",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/jjdaurora/dev/clients/carmella_dimella",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "18680c5cab967b1a845826d78662ceb7",
+      "version": "3afb26bd4348dce328fb16f8d5c51f40",
       "pluginOptions": {
         "plugins": []
       },
@@ -425,6 +599,10 @@
             "version": "^1.1.51"
           },
           {
+            "name": "gatsby-image",
+            "version": "^1.0.51"
+          },
+          {
             "name": "gatsby-link",
             "version": "^1.6.40"
           },
@@ -439,6 +617,14 @@
           {
             "name": "gatsby-plugin-sass",
             "version": "^1.0.26"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.44"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.24"
           },
           {
             "name": "gh-pages",
@@ -486,7 +672,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "37213bb9084695978a0d1cd06805fefa",
+        "contentDigest": "0a3883fac7764af9e25b043fcd0d5bc3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -497,12 +683,12 @@
       },
       "pathPrefix": "/carmelladimella",
       "polyfill": true,
-      "buildTime": "2018-05-05T23:17:57.867Z",
+      "buildTime": "2018-05-11T01:13:34.191Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a546d41ef767bb4432aa0d21b5ded786",
+        "contentDigest": "c683df0adc6b8107aa514e86f84eac47",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -523,7 +709,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4780eabb2c683df9a1f486cbdc18416c",
+        "contentDigest": "5800ba34c7d8d1fdbf8ba3ef71eae6e5",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -544,7 +730,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d8f59ca88a3bfe88a38038fd7b1c3f22",
+        "contentDigest": "9f3181477e09eb058828877d59f8bcd3",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -565,7 +751,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "407d3f2c06b7629855ac5e5324ce1f0e",
+        "contentDigest": "cd4e002d0f3b4707d08299a101af000b",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -586,7 +772,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ee04a9fa05165ffd93a37ef57d2792ae",
+        "contentDigest": "87735e364892d7051eba38108497646c",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -607,7 +793,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8a4424173b43fe7f3311e2116e14297d",
+        "contentDigest": "72776eb522ed8f7ad2459ad16cef18fa",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -628,7 +814,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2c8877902283ddc56fd45a7e9fa92ac5",
+        "contentDigest": "a77a36dbb1f6e31543a4e47ef36ccbea",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -649,7 +835,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0deff60abf8b5978f2b391d5dc2aeeec",
+        "contentDigest": "bc8402a39a6d837c548ed83bdbc9864c",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -657,7 +843,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "c6071bbfdf1178b1df11bf51cb20993c"
+    "PLUGINS_HASH": "9c4d7ba2283b7f08dc09c79eaa32f03e"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -665,10 +851,6 @@
         "LAYOUT___index"
       ]
     },
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ]
-    }
+    "connections": {}
   }
 }

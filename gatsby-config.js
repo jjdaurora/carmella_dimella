@@ -8,13 +8,10 @@ module.exports = {
       resolve: `gatsby-plugin-sass`,
       options: {
       precision: 8,
-      },
+      },   
     },
-  //   {
-  //     resolve: `gatsby-plugin-babel`,
-  //     options: {
-  //     ignore: ['foo.js', 'bar/**/*.js'],
-  //   },
-  // },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`
+    `gatsby-plugin-netlify`
   ],
 }

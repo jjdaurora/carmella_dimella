@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import { Jumbotron, Container, Row, Col } from 'reactstrap';
 import { Grid } from 'react-bootstrap'
 import PropTypes from 'prop-types';
+import Img from "gatsby-image"
 
 
 const marginTop = {
