@@ -11,7 +11,7 @@ const marginTop = {
 }
 
 const landingPageImage = {
-  backgroundImage: 'url(static/img/Carmella-Dimella-Welcome-Image.png)',
+  backgroundImage: 'url(static/img/Carmella-Dimella-Welcome-Image.jpg)',
   display: 'flex',
   backgroundSize: 'cover',
   backgroundPosition: '25% 50%',

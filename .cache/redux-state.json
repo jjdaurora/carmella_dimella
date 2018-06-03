@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/jjdaurora/dev/clients/carmella_dimella/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/jjdaurora/dev/clients/carmella_dimella/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "19bfbce6dad83ca43fb90696632db278",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -758,14 +768,16 @@
       "siteMetadata": {
         "title": "Carmella DiMella"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "/carmelladimella",
       "polyfill": true,
-      "buildTime": "2018-05-11T01:34:24.498Z",
+      "buildTime": "2018-06-03T20:57:59.101Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d994a57148fc4fcc6040b018aefaa9fa",
+        "contentDigest": "71197046e1bdfa6ea557c78e48cc6253",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -786,7 +798,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e0b61f2c384076c058804ba88adfa5b2",
+        "contentDigest": "763ffe61df509d835690cab3ffa3dde6",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -807,7 +819,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c2490574d3b154854b8cb05ca03eda32",
+        "contentDigest": "fa2a560b22bde87ecd222fa7fc6fbff0",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -828,7 +840,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9453eab8bf539c3a73b0ec47f2574f6e",
+        "contentDigest": "79d4b04d10f8d20ff826d53cbe1d5c88",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -849,7 +861,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "eef3d480d91c92b8e9a3b63f645da6ac",
+        "contentDigest": "6511cfb499fb54db76b61d0dc157645f",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -870,7 +882,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e98790a17e31ede66d73d154e72340bf",
+        "contentDigest": "c3d7a1e2e39eb39c33dabc1a86ca356f",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -891,7 +903,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "76eb99338f2f03e956c982e777187d0d",
+        "contentDigest": "2f5c7c2db30a5ae75e083e20b280373c",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -912,7 +924,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bc1486d9e631f93e86143297622ea850",
+        "contentDigest": "e4f4e52ec3302622a83ab1f2b4b4a42b",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -928,6 +940,10 @@
         "LAYOUT___index"
       ]
     },
-    "connections": {}
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
   }
 }
